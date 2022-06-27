@@ -1,0 +1,49 @@
+
+@mixin flex-layout() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.navigation-container {
+    @include flex-layout();
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+.navigation-container a { 
+    color: white;
+        text-decoration: none;    
+}
+
+.nav-list {
+    @include flex-layout();
+    justify-content: center;
+    place-content: end;
+    height: 100%;
+    margin-right: 2rem;
+    gap: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+   
+}
+
+.nav-list li:hover {
+    transform: scale(.97);
+    
+}
+
+.nav-icons {
+    padding-top: 4px; 
+}
+
+
