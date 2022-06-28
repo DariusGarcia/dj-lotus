@@ -12,54 +12,90 @@
     padding: 2.6rem;
 }
 
-.about-section {
-    padding-top: 2rem;
-    justify-content: space-between;
-
-    .about-grid-container {
-        display: flex;
-        gap: 2rem;
-    }
-
-    #about-name-title {
-        display: flex;
-        justify-content: center;
-        margin-left: 1rem;
-    }
+.about-grid-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    // padding-left: 5rem;
 }
 
 .header-div {
-    @include flex-layout();
-    flex-direction: column;
-    margin-left: 1rem;
-    // border-bottom: 1px solid rgb(212, 55, 212);
     border-radius: 10px;
+    width: 45vw;
 
     /*----------------------------------------------  
     dj lotus article body header and text content 
     ----------------------------------------------*/
     #about-name-title {
+        @include flex-layout();
         font-size: 2.5rem;
-    }
-    .about-text-article {
-        // width: 50%;
-    }
+    }    
 }
 
-.header-div:hover {
+#about-text {
+    @include flex-layout();
+}
+
+span:hover {
     transform: scale(.99);
     border-radius: 10px;
     border: 1px solid rgb(212, 55, 212);
 }
 
-.about-image-grid {
-    width: 100%;    
-}
-
 #about-image {
-    height: 25rem;
+    height: 30rem;
     border-radius: 10px;
 }
 
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+span {
+    @include flex-layout();
+    flex-direction: column;
+}
 
+/* ------------------------------
+Media queries for smaller devices
+-------------------------------*/
+
+@media (max-width: 1200px) {
+    .nav-list {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 1024px) {
+    
+  }
+  @media (max-width: 800px) {
+    #about-image {
+        height: 20rem;
+    }
+  }
+  @media (max-width: 600px) {
+     .about-grid-container {
+        display: grid;
+     }
+     .header-div {
+        width: 100%;
+     }
+
+     span:hover {
+        transform: scale(1);
+     }
+    
+        #about-name-title {
+            font-size: 2rem;
+          }
+     }
+     #about-image {
+        height: 18rem;
+    }
+    
+  
+  @media (max-width: 375px) {
+    
+  }

@@ -2,8 +2,43 @@
   background-color: #1b1b1b;
 }
 
+.lotus-container {
+  background-color: #1b1b1b;
+  // transform: translateY(50px);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+@media (max-width: 1200px) {
+  .lotus-container {
+    transform: scale(.9) translateY(150px);
+  }
+}
+@media (max-width: 1024px) {
+  .lotus-container {
+    transform: scale(.8) translateY(150px);
+  }
+}
+@media (max-width: 800px) {
+  .lotus-container {
+    transform: scale(.9) translateY(100px);
+  }
+}
+@media (max-width: 600px) {
+  .lotus-container {
+    transform: scale(.8) translateY(100px);
+  }
+ 
+}
+@media (max-width: 375px) {
+  .lotus-container {
+    display: none;
+    transform: scale(.7) translateY(100px);
+  }
+
+  .about-container {
+    margin-top: 5rem;
+  }
+}

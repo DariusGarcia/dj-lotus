@@ -1,18 +1,22 @@
 import "./App.scss";
 import Navigation from "./components/Navigation/Navigation";
+import DjLotus from "./components/AnimatedModels/DjLotus";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Schedule from "./components/Schedule/Schedule";
-import DjLotus from "./components/AnimatedModels/DjLotus";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <DjLotus />
+      <div className="lotus-container">
+        <DjLotus />
+      </div>
       <About />
-      <Contact />
-      {/* <Schedule /> */}
+      {/* <Contact />  */}
+      <Newsletter />
+      <Schedule />
     </div>
   );
 }

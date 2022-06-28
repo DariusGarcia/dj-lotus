@@ -14,7 +14,7 @@ let animateScroll = Scroll.animateScroll;
 function Navigation() {
   return (
     <Element name="intro">
-      <div className="navigation-container">
+      <nav className="navigation-container">
         <div nav-home-icon-container>
           <ul className="nav-list">
             <li
@@ -31,7 +31,6 @@ function Navigation() {
             </li>
             <li className="DJ-title">DJ LOTUS.</li>
           </ul>
-          <li></li>
         </div>
         <div className="nav-links container">
           <ul className="nav-list">
@@ -82,8 +81,15 @@ function Navigation() {
               </li>
             </IconContext.Provider>
           </ul>
+          {/* <input
+            type="checkbox"
+            role="button"
+            aria-label="Display the menu"
+            aria-expanded="false"
+            aria-controls="menu"
+          ></input> */}
         </div>
-      </div>
+      </nav>
     </Element>
   );
 }

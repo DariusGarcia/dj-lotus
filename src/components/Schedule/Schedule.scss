@@ -1,5 +1,13 @@
+@mixin flex-layout() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
 .schedule-container {
+@include flex-layout();
     background-color: #1b1b1b;
+    color: white;
+    padding-bottom: 15rem;
 }
 #schedule {
     position: relative;

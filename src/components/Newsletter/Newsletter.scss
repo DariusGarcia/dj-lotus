@@ -1,0 +1,64 @@
+@mixin flex-layout() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 2rem;
+    // background-color: #242424;
+    color: white;
+
+    
+    label {
+        padding: 1rem;
+        display: flex;
+        // justify-content: center;
+    }
+    input {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        place-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        background-color: rgb(24, 65, 199);
+        border-radius: 5px;
+        color: white;
+        height: 3rem;
+        width: 6rem;
+        transition: .2s;
+        margin-top: 2rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    }
+}
+
+.form-group {
+    @include flex-layout();
+    background-color: #242424;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 50vw;
+}
+
+button:hover {
+    transform: scale(.98);
+}
+
+#signup {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
