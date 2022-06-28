@@ -38,8 +38,6 @@
     width: 70%;
 }
 
-
-
 #about-image {
     height: 30rem;
     border-radius: 10px;
@@ -73,17 +71,29 @@ Media queries for smaller devices
 
   @media (max-width: 1024px) {
     #about-text {
-        width: 70%;
+        width: 90%;
     }
+    #about-image {
+        height: 25rem;
+    }
+
+    #about-name-title {
+        font-size: 7rem;
+    }
+
   }
 
   @media (max-width: 800px) {
+    #about-name-title {
+        font-size: 5rem;
+    }
     #about-text {
         width: 90%;
+        font-size: 1.1rem;
     }
 
     #about-image {
-        height: 20rem;
+        height: 18rem;
     }
     
   }

@@ -14,7 +14,7 @@ function About() {
           <div className="header-div">
             <section>
               <header>
-                <h1 id="about-name-title">dj lotus</h1>
+                <h1 id="about-name-title">DJ Lotus Banks</h1>
               </header>
               <article className="about-text-article">
                 <span>

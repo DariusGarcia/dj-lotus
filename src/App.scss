@@ -28,7 +28,9 @@
 }
 @media (max-width: 600px) {
   .lotus-container {
-    transform: scale(.8) translateY(100px);
+    height: 50vh;
+    margin-bottom: none;
+    transform: scale(.9) translateY(100px);
   }
  
 }
