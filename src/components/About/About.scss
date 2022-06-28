@@ -1,8 +1,49 @@
+
+@mixin flex-layout() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
 .about-container {
     position: relative;
-    margin-top: 5rem;
-    
-    header {
-        // height: 50%;
-    }
+
 }
+
+.DJ-lotus-model {
+}
+#about {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.about-section {
+    // @include flex-layout();
+    padding-top: 5rem;
+}
+
+#about-text {
+
+    // width: 50%;
+}
+
+.about-grid-container {
+    display: flex;
+}
+
+.header-div {
+    @include flex-layout();
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 70%;
+}
+
+.about-image-grid {
+    width: 100%;    
+}
+
+#about-image {
+    height: 25rem;
+}
+
