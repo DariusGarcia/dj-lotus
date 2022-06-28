@@ -18,6 +18,15 @@
     background-color: #1b1b1b;
     color: white;
     list-style-type: none;
+    transition: 1s;
+}
+
+.navigation-container:after {
+    // content: '';
+  display: block;
+    border-bottom: 2px solid #38fd07;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
 }
 
 .navigation-container a { 

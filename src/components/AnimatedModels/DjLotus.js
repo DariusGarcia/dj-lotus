@@ -5,7 +5,7 @@ import React from "react";
 
 function DJLotus() {
   return (
-    <div>
+    <div className="dj-spline-container">
       <Spline
         className="DJ-lotus-model"
         scene="https://prod.spline.design/RFk3p7GdffYPXAnr/scene.splinecode"

@@ -1,0 +1,16 @@
+
+@mixin flex-layout() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.contact-container {
+    height: 100vh;
+    margin: 0;
+    top: 0;
+    color: white;
+    background-color: #1b1b1b;
+    margin-top: 2rem;
+    padding: 2rem;
+}

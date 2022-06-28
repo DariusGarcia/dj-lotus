@@ -12,15 +12,13 @@
     padding: 2.6rem;
 }
 
-
-
-
 .about-section {
     padding-top: 2rem;
+    justify-content: space-between;
 
     .about-grid-container {
         display: flex;
-        justify-content: space-around;
+        gap: 2rem;
     }
 
     #about-name-title {
@@ -30,21 +28,21 @@
     }
 }
 
-
-
 .header-div {
     @include flex-layout();
     flex-direction: column;
     margin-left: 1rem;
-    
-    border-bottom: 1px solid rgb(212, 55, 212);
+    // border-bottom: 1px solid rgb(212, 55, 212);
     border-radius: 10px;
-  
+
     /*----------------------------------------------  
     dj lotus article body header and text content 
     ----------------------------------------------*/
+    #about-name-title {
+        font-size: 2.5rem;
+    }
     .about-text-article {
-        width: 50%;
+        // width: 50%;
     }
 }
 

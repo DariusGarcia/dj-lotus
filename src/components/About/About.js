@@ -1,5 +1,7 @@
 import "./About.scss";
-import logo from "../../images/portrait1.jpg";
+import portrait1 from "../../images/portrait1.jpg";
+import portrait2 from "../../images/djing-portrait2.jpg";
+import portrait3 from "../../images/dj-portrait3.jpg";
 import * as Scroll from "react-scroll";
 import DJLotus from "../AnimatedModels/DjLotus";
 let Element = Scroll.Element;
@@ -33,7 +35,7 @@ function About() {
                 </article>
               </div>
               <div className="about-image-grid">
-                <img src={logo} alt="logo" id="about-image" />
+                <img src={portrait1} alt="logo" id="about-image" />
               </div>
             </div>
           </div>
