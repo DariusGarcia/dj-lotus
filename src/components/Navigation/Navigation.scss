@@ -37,15 +37,29 @@
    
 }
 
-.nav-list li:hover {
+.home-icon:hover {
+    transform: scale(.97);
+    border-bottom: 1px solid white;
+    color: rgb(212, 55, 212)
+}
+.links:hover {
     transform: scale(.97);
     border-bottom: 1px solid white;
     color: rgb(212, 55, 212)
     
 }
 
+.DJ-title:hover {
+    cursor: default;
+    // border-bottom: 1px solid white;
+    color: rgb(212, 55, 212)
+}
 .nav-icons {
     padding-top: 4px; 
 }
 
-
+.fb:hover {
+    transform: scale(1.6);
+    box-shadow: 3px 3px 3px white ;
+    border-bottom: 1px solid white;
+}

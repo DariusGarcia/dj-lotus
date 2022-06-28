@@ -10,33 +10,36 @@
 
 }
 
-.DJ-lotus-model {
-}
-#about {
-    display: flex;
-    justify-content: center;
-    margin-left: 1rem;
-}
+
+
 
 .about-section {
-    // @include flex-layout();
     padding-top: 5rem;
+
+    .about-grid-container {
+        display: flex;
+    }
+
+    #about-name-title {
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
 }
 
-#about-text {
 
-    // width: 50%;
-}
-
-.about-grid-container {
-    display: flex;
-}
 
 .header-div {
     @include flex-layout();
     flex-direction: column;
     margin-left: 1rem;
-    width: 70%;
+
+    /*----------------------------------------------  
+    dj lotus article body header and text content 
+    ----------------------------------------------*/
+    .about-text-article {
+        width: 50%;
+    }
 }
 
 .about-image-grid {

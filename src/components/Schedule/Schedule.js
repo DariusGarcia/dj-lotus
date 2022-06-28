@@ -8,6 +8,9 @@ function Schedule() {
       <header>
         <h1 id="schedule">Schedule</h1>
       </header>
+      <section className="schedule-list">
+        <span></span>
+      </section>
     </div>
   );
 }
