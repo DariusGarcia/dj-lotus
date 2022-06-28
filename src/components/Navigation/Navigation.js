@@ -21,8 +21,9 @@ function Navigation() {
               className="home-icon"
               onClick={() =>
                 animateScroll.scrollToTop({
-                  duration: 20,
-                  delay: 0,
+                  duration: 400,
+                  delay: 50,
+                  smooth: true,
                 })
               }
             >
@@ -38,8 +39,8 @@ function Navigation() {
               className="links"
               onClick={() =>
                 scroller.scrollTo("about", {
-                  duration: 20,
-                  delay: 0,
+                  duration: 400,
+                  delay: 50,
                   smooth: true,
                   offset: -100,
                 })

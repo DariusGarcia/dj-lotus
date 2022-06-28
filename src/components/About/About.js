@@ -9,12 +9,11 @@ function About() {
     <Element name="about">
       <div className="about-container">
         <section>
-          <DJLotus />
           <div className="about-section">
             <div className="about-grid-container">
               <div className="header-div">
                 <header>
-                  <h1 id="about">dj lotus.</h1>
+                  <h1 id="about-name-title">dj lotus.</h1>
                 </header>
                 <article className="about-text-article">
                   <span>
