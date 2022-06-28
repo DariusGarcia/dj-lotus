@@ -62,3 +62,45 @@ button:hover {
     justify-content: center;
     color: white;
 }
+
+
+
+/* ------------------------------
+Media queries for smaller devices
+-------------------------------*/
+
+@media (max-width: 1200px) {
+    .nav-list {
+      font-size: 1rem; 
+    }
+      .form-group {
+        width: 80%;
+     }
+    
+  }
+  @media (max-width: 1024px) {
+    .form-group {
+        width: 80%;
+     }
+  }
+  @media (max-width: 800px) {
+    #about-image {
+        height: 20rem;
+    }
+    .form-group {
+        width: 80%;
+     }
+  }
+  @media (max-width: 600px) {
+     #signup {
+        font-size: 1.5rem;
+     }
+     .form-group {
+        width: 80%;
+     }
+}
+    
+  
+  @media (max-width: 375px) {
+    
+  }
