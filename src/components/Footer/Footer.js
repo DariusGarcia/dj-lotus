@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import { MdMailOutline, MdCall } from "react-icons/md";
 
 import { GrSoundcloud } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
@@ -20,21 +21,21 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <GrSoundcloud />
+                <GrSoundcloud /> <span id="span-media-icons">Soundcloud</span>
               </a>
             </IconContext.Provider>
           </article>
-          <article>
+          <article className="social-media-links">
             <IconContext.Provider
               className="fb"
               value={{ color: "#4267B2", size: "1.5rem" }}
             >
               <a
-                href="https:/soundcloud.app.goo.gl/eWae6TjA1bb8KaaFA"
+                href="https://www.facebook.com/profile.php?id=100044150903725"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsFacebook />
+                <BsFacebook /> <span id="span-media-icons">Facebook</span>
               </a>
             </IconContext.Provider>
           </article>
@@ -42,8 +43,19 @@ function Footer() {
         <section>
           <article>
             <h2>Contact us</h2>
-            <p>Email: temp@gmail.com</p>
-            <p>Phone: xxx-xxx-xxxx</p>
+
+            <p id="email-phone-icons">
+              <span id="span-socials-icon">
+                <MdMailOutline />
+              </span>{" "}
+              Email: Iamlotusbanks@gmail.com
+            </p>
+            <p id="email-phone-icons">
+              <span id="span-socials-icon">
+                <MdCall />
+              </span>
+              Phone: (619) 869-5164
+            </p>
           </article>
         </section>
       </div>

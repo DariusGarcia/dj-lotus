@@ -1,5 +1,8 @@
 import "./Newsletter.scss";
 import { useFormik } from "formik";
+import * as Scroll from "react-scroll";
+
+let Element = Scroll.Element;
 
 // A custom validation function. This must return an object
 // which keys are symmetrical to our values/initialValues
@@ -42,7 +45,7 @@ const Newsletter = () => {
     },
   });
   return (
-    <>
+    <Element name="newsletter">
       <h1 id="signup">Sign up for our newsletter</h1>
       <div className="form-container">
         <div className="form-group">
@@ -85,7 +88,7 @@ const Newsletter = () => {
           </form>
         </div>
       </div>
-    </>
+    </Element>
   );
 };
 

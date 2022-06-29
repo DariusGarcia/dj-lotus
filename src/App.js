@@ -17,9 +17,9 @@ function App() {
       </div>
       <About />
       {/* <Contact /> */}
-      <Newsletter />
-      <PicStack />
       <Schedule />
+      <PicStack />
+      <Newsletter />
       <Footer />
     </div>
   );

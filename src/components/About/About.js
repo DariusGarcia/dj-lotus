@@ -2,8 +2,11 @@ import "./About.scss";
 import portrait1 from "../../images/portrait1.jpg";
 import portrait2 from "../../images/djing-portrait2.jpg";
 import portrait3 from "../../images/dj-portrait3.jpg";
-import * as Scroll from "react-scroll";
+
 import DJLotus from "../AnimatedModels/DjLotus";
+
+import * as Scroll from "react-scroll";
+
 let Element = Scroll.Element;
 
 function About() {

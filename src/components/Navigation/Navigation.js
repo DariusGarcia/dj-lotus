@@ -47,9 +47,33 @@ function Navigation() {
             >
               About
             </li>
-            <li className="links">Shows</li>
+            <li
+              className="links"
+              onClick={() =>
+                scroller.scrollTo("schedule", {
+                  duration: 400,
+                  delay: 50,
+                  smooth: true,
+                  offset: 0,
+                })
+              }
+            >
+              Shows
+            </li>
             <li className="links">Releases</li>
-            <li className="links">Contact</li>
+            <li
+              className="links"
+              onClick={() =>
+                scroller.scrollTo("newsletter", {
+                  duration: 400,
+                  delay: 50,
+                  smooth: true,
+                  offset: 0,
+                })
+              }
+            >
+              Contact
+            </li>
             <li className="links"></li>
             <IconContext.Provider
               className="fb"
@@ -72,7 +96,7 @@ function Navigation() {
             >
               <li className="nav-icons">
                 <a
-                  href="https:/soundcloud.app.goo.gl/eWae6TjA1bb8KaaFA"
+                  href="https://www.facebook.com/profile.php?id=100044150903725"
                   target="_blank"
                   rel="noreferrer"
                 >
