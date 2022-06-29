@@ -3,8 +3,10 @@ import Navigation from "./components/Navigation/Navigation";
 import DjLotus from "./components/AnimatedModels/DjLotus";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import PicStack from "./components/PictureStack/PicStack";
 import Schedule from "./components/Schedule/Schedule";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,9 +16,11 @@ function App() {
         <DjLotus />
       </div>
       <About />
-      {/* <Contact />  */}
+      {/* <Contact /> */}
       <Newsletter />
+      <PicStack />
       <Schedule />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+
+.footer-wrapper {
+    cursor: default;
+}
+.footer-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    // grid-template-columns: 1fr 1fr 1fr;
+    height: 10rem;
+    background-color: #242424 ;
+
+    article{
+        color: white;
+    }
+
+    .social-media-links {
+        display: flex;
+    }
+}
+
+#dj-lotus-title {
+    color: white;
+    border-bottom: 1px solid grey;
+}

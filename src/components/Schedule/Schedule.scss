@@ -4,14 +4,47 @@
     place-content: center;
 }
 .schedule-container {
-@include flex-layout();
+// @include flex-layout();
+padding: 2rem;
     background-color: #1b1b1b;
     color: white;
     padding-bottom: 15rem;
 }
-#schedule {
-    position: relative;
-    padding-top: 10rem;
-    margin: none;
-    top: 0;
+
+.schedule-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    #schedule {
+        position: relative;
+        // padding-top: 10rem;
+        font-size: 3rem;
+        margin: none;
+        top: 0;
+    }
+
+    #mixing-image {
+        height: 40rem;
+    } 
+}
+
+.schedule-list {
+    .shows-list-article {
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem;
+        padding-top: 2rem;
+
+        h3 {
+            color: rgb(212, 55, 212);
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}
+
+.shows-list-article:hover {
+    border-bottom: 2px solid grey;
 }
