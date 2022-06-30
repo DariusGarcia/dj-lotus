@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dj-lotus/static/css/main.167efb43.css",
-    "main.js": "/dj-lotus/static/js/main.e8604114.js",
+    "main.css": "/dj-lotus/static/css/main.99c1c122.css",
+    "main.js": "/dj-lotus/static/js/main.f4f8b63a.js",
     "static/js/232.69fc2605.chunk.js": "/dj-lotus/static/js/232.69fc2605.chunk.js",
     "static/js/787.12cbf098.chunk.js": "/dj-lotus/static/js/787.12cbf098.chunk.js",
     "static/media/dj-portrait3.jpg": "/dj-lotus/static/media/dj-portrait3.17fb51a5d50ffa5781da.jpg",
@@ -12,13 +12,13 @@
     "static/media/djing-portrait2.jpg": "/dj-lotus/static/media/djing-portrait2.5f7068ab1bc51bd2e096.jpg",
     "static/media/portrait1.jpg": "/dj-lotus/static/media/portrait1.20cc1e58d3b64a04b515.jpg",
     "index.html": "/dj-lotus/index.html",
-    "main.167efb43.css.map": "/dj-lotus/static/css/main.167efb43.css.map",
-    "main.e8604114.js.map": "/dj-lotus/static/js/main.e8604114.js.map",
+    "main.99c1c122.css.map": "/dj-lotus/static/css/main.99c1c122.css.map",
+    "main.f4f8b63a.js.map": "/dj-lotus/static/js/main.f4f8b63a.js.map",
     "232.69fc2605.chunk.js.map": "/dj-lotus/static/js/232.69fc2605.chunk.js.map",
     "787.12cbf098.chunk.js.map": "/dj-lotus/static/js/787.12cbf098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.167efb43.css",
-    "static/js/main.e8604114.js"
+    "static/css/main.99c1c122.css",
+    "static/js/main.f4f8b63a.js"
   ]
 }
