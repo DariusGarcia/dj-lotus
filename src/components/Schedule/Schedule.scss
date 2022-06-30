@@ -8,16 +8,33 @@
     padding: 2rem;
     background-color: #1b1b1b;
     color: white;
-    padding-bottom: 15rem;
+    margin-bottom: 0rem;
 }
 
 .schedule-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    display: flex;
+    
+    align-items: center;
+    
+    // grid-template-columns: 1fr 1fr 1fr; 
+    .btn-book-shows {
+    height: 3rem;
+    width: 7rem;
+    
+    margin-bottom: .5rem;
+    margin-top: 4rem;
+    background-color: #24a0ed;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    }
+
     #schedule {
         position: relative;
-        // padding-top: 10rem;
-        font-size: 3rem;
+        
         margin-left: 3rem;
         top: 0;
         margin-top: 5rem;
@@ -39,13 +56,8 @@
         padding: 1rem 0 1rem 0;
         cursor: default;
 
-        h3 {
-            color: rgb(212, 55, 212);
-            font-size: 1.5rem;
-        }
-
         h2 {
-            font-size: 1.5rem;
+            color: rgb(212, 55, 212);
         }
     }
 }
@@ -53,3 +65,211 @@
 .shows-list-article:hover {
     border-bottom: 2px solid grey;
 }
+
+.schedule-event-dates {
+    .btn-buy-tickets {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    }
+}
+
+.btn-buy-tickets:hover {
+    background-color: #24a0ed;
+}
+.schedule-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.flyers {
+    border-radius: 5px;
+    
+    margin-right: 1rem;
+    transition:transform 0.25s ease;
+}
+
+.flyers:hover {
+    border: 1px solid white;
+    -webkit-transform:scale(8); /* or some other value */
+    transform:scale(8);
+    backdrop-filter: blur(5px);
+}
+
+/* ------------------------------
+Media queries for smaller devices
+-------------------------------*/
+
+@media (min-width: 1201px) {
+    #schedule {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+    .flyers {
+        height: 5rem;
+    }
+    .btn-book-shows {
+        margin-left: 3rem;
+    }
+    .btn-buy-tickets {
+    height: 2.5rem;
+    width: 6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #schedule {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .btn-book-shows {
+        margin-left: 2rem;
+    }
+    .btn-buy-tickets {
+        height: 2.5rem;
+        width: 6rem;
+        }
+  }
+
+  @media (max-width: 1024px) {
+    #schedule {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .btn-book-shows {
+        margin-left: 2rem;
+    }
+    .btn-buy-tickets {
+        height: 2.5rem;
+        width: 6rem;
+        }
+    .flyers {
+        height: 5rem;
+    }
+    .flyers:hover {
+        border: 1px solid white;
+        -webkit-transform:scale(6); /* or some other value */
+        transform:scale(6);
+        backdrop-filter: blur(5px);
+    }
+        
+    
+  }
+
+  @media (max-width: 800px) {
+
+    .schedule-event-dates {
+        margin-right: 1rem;
+    }
+    #schedule {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .btn-book-shows {
+        margin-left: 2rem;
+    }
+    .btn-buy-tickets {
+        height: 2rem;
+        width: 5rem;
+    }
+    .flyers {
+        height: 5rem;
+    }
+    .flyers:hover {
+        border: 1px solid white;
+        -webkit-transform:scale(6); /* or some other value */
+        transform:scale(6);
+        backdrop-filter: blur(5px);
+    }
+    
+    
+    
+  }
+
+  @media (max-width: 600px) {
+    .schedule-event-dates {
+        margin-right: 1rem;
+    }
+    #schedule {
+        font-size: 2rem;
+    }
+    .btn-book-shows {
+        margin-left: 2rem;
+    }
+    .btn-buy-tickets {
+        height: 2rem;
+        width: 5rem;
+    }
+    .flyers {
+        height: 4rem;
+    }
+    .flyers:hover {
+        border: 1px solid white;
+        -webkit-transform:scale(5); /* or some other value */
+        transform:scale(5);
+        backdrop-filter: blur(5px);
+    }
+    
+}
+    
+  
+  @media (max-width: 375px) {
+   
+    .schedule-event-dates {
+        h3 {
+        font-size: .8rem;
+        }
+    }
+
+    .schedule-events {
+        h2 {
+            font-size: .8rem;
+            color: red;
+        }
+    }
+    .btn-book-shows {
+        margin-left: 2rem;
+    }
+    .btn-buy-tickets {
+        display: flex;
+        align-items: center;
+        place-content: center;
+        
+    }
+    .flyers {
+        height: 3rem;
+    }
+    .flyers:hover {
+        border: 1px solid white;
+        -webkit-transform:scale(4); /* or some other value */
+        transform:scale(4);
+        backdrop-filter: blur(5px);
+    }
+    
+  }
