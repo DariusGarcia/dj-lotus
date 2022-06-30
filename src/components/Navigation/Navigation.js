@@ -60,7 +60,7 @@ function Navigation() {
             >
               Shows
             </li>
-            <li className="links">Releases</li>
+            {/* <li className="links">Releases</li> */}
             <li
               className="links"
               onClick={() =>

@@ -22,7 +22,6 @@
 
 .navigation-container:after {
     display: block;
-    border-bottom: 2px solid #38fd07;
     transform: scaleX(0);
     transition: .2s ease-in-out;
 }
@@ -72,7 +71,13 @@
 }
 
 
-  
+@media (min-width: 1201px) {
+    .nav-list {
+        @include flex-layout();
+        justify-content: center;
+        place-content: end;
+}
+}
 @media (max-width: 1200px) {
     .nav-list {
       font-size: 1rem;
@@ -85,6 +90,11 @@
     
   }
   @media (max-width: 600px) {
+    .nav-list {
+        @include flex-layout();
+        justify-content: center;
+        place-content: center;
+}
     .links {
         font-size: .8rem;
     }
@@ -99,5 +109,9 @@
     }
   
   @media (max-width: 375px) {
-    
+    .nav-list {
+        @include flex-layout();
+        justify-content: flex-start;
+        place-content: flex-start;
+}
   }

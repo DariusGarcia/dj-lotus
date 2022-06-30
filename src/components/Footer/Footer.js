@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer-wrapper">
       <div className="footer-container">
-        <section>
+        <section className="footer-section">
           <h1 id="dj-lotus-title"> dj lotus banks.</h1>
           <article className="social-media-links">
             <IconContext.Provider
@@ -40,7 +40,7 @@ function Footer() {
             </IconContext.Provider>
           </article>
         </section>
-        <section>
+        <section className="footer-section">
           <article>
             <h2>Contact us</h2>
 

@@ -48,3 +48,52 @@
     color: white;
     margin-left: 1rem;
 }
+
+/* ------------------------------
+Media queries for smaller devices
+-------------------------------*/
+
+@media (max-width: 1200px) {
+ 
+    
+  }
+  @media (max-width: 1024px) {
+   
+  }
+  @media (max-width: 800px) {
+   
+  }
+  @media (max-width: 600px) {
+   #dj-lotus-title {
+    font-size: 1rem;
+   }
+   #email-phone-icons {
+    font-size: .8rem;
+   }
+
+   a {
+    font-size: .8rem;
+   }
+
+   .footer-section {
+    margin-right: 2rem;
+   }
+}
+    
+  
+  @media (max-width: 375px) {
+    #dj-lotus-title {
+        font-size: 1rem;
+       }
+       #email-phone-icons {
+        font-size: .8rem;
+       }
+    
+       a {
+        font-size: .8rem;
+       }
+    
+       .footer-section {
+        margin-right: 1rem;
+       }
+  }

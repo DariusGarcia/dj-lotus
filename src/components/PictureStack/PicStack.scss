@@ -7,19 +7,72 @@
     gap: 1rem;
   
 }
-#mixing-image {
-    height: 40rem;
-    border-radius: 15px;
 
-  
-}
-#mixing-image2 {
+.mixing-image2 {
     height: 38rem;
     border-radius: 15px;
 }
 
-@media (max-width: 1000px) {
-    #mixing-image {
+
+
+@media (min-width: 1201px) {
+    .mixing-image {
         height: 30rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 30rem;
+        border-radius: 15px;
     }
 }
+@media (max-width: 1200px) {
+    .mixing-image {
+        height: 40rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 30rem;
+        border-radius: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .mixing-image {
+        height: 40rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 30rem;
+        border-radius: 15px;
+    }
+  }
+  @media (max-width: 800px) {
+    .mixing-image {
+        height: 25rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 30rem;
+        border-radius: 15px;
+    }
+  }
+  @media (max-width: 600px) {
+    .mixing-image {
+        height: 20rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 30rem;
+        border-radius: 15px;
+    }
+    }
+  
+  @media (max-width: 375px) {
+    .mixing-image {
+        height: 20rem;
+        border-radius: 15px;
+    }
+    .mixing-image2 {
+        height: 20rem;
+        border-radius: 15px;
+    }
+  }
