@@ -1,0 +1,29 @@
+.static-model-container {
+    margin-top: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    .static-model-image {
+        height: 50vh;
+        transform: scale(0.8) translateY(-200px) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .static-model-image {
+        transform: scale(0.8) translateY(-200px) !important;
+    }
+}
+@media (max-width: 424px) {
+    .static-model-image {
+        transform: scale(0.7);
+    }
+}
+@media (max-width: 375px) {
+    .static-model-image {
+        transform: scale(0.7);
+    }
+}
+
+
