@@ -15,7 +15,7 @@ function Navigation() {
   return (
     <Element name="intro">
       <nav className="navigation-container">
-        <div nav-home-icon-container>
+        <div className="nav-home-icon-container">
           <ul className="nav-list">
             <li
               className="home-icon"

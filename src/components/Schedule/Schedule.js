@@ -27,7 +27,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={merrow} alt="merrow" className="flyers" />
-              <h2>The Merrow in San Diego, California</h2>
+              <h2 className="schedule-event-location">
+                The Merrow in San Diego, California
+              </h2>
             </div>
           </article>
 
@@ -40,7 +42,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
 
@@ -53,7 +57,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip2} alt="honeyDip2" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
 
@@ -66,7 +72,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
 
@@ -79,7 +87,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
 
@@ -92,7 +102,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
 
@@ -105,7 +117,9 @@ function Schedule() {
             </div>
             <div className="schedule-events">
               <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2>HoneyDip Riddim in La Jolla, California</h2>
+              <h2 className="schedule-event-location">
+                HoneyDip Riddim in La Jolla, California
+              </h2>
             </div>
           </article>
         </section>

@@ -42,19 +42,12 @@ function Footer() {
         </section>
         <section className="footer-section">
           <article>
-            <h2>Contact us</h2>
-
+            <h2 id="footer-contact-me">Contact us</h2>
             <p id="email-phone-icons">
               <span id="span-socials-icon">
                 <MdMailOutline />
               </span>{" "}
-              Email: Iamlotusbanks@gmail.com
-            </p>
-            <p id="email-phone-icons">
-              <span id="span-socials-icon">
-                <MdCall />
-              </span>
-              Phone: (619) 869-5164
+              Email: bookings@iamlotusbanks.com
             </p>
           </article>
         </section>
