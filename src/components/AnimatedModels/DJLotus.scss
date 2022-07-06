@@ -1,11 +1,9 @@
-
 .dj-spline-container {
     position: relative;
     height: 70vh;
     margin-top: 10rem;
-    transform: scale(.5) translateX(200px);
+    transform: scale(0.5) translateX(200px);
     // width: 10%;
-
 }
 
 .DJ-lotus-model {
@@ -13,10 +11,8 @@
 }
 
 @media (max-width: 1024px) {
-
     .dj-spline-container {
         margin-top: 15rem;
-        transform: scale(0.2)  translateY(200px);
-        
-}
+        transform: scale(0.2) translateY(200px);
+    }
 }
