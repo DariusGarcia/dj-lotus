@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/dj-lotus/static/css/main.5aced05e.css",
-    "main.js": "/dj-lotus/static/js/main.99c755a6.js",
-    "static/js/232.69fc2605.chunk.js": "/dj-lotus/static/js/232.69fc2605.chunk.js",
-    "static/js/787.12cbf098.chunk.js": "/dj-lotus/static/js/787.12cbf098.chunk.js",
-    "static/media/Macbook-pro.jpg": "/dj-lotus/static/media/Macbook-pro.74e70112bd3cd846ce16.jpg",
-    "static/media/dj-portrait3.jpg": "/dj-lotus/static/media/dj-portrait3.17fb51a5d50ffa5781da.jpg",
-    "static/media/HoneyDip2.jpeg": "/dj-lotus/static/media/HoneyDip2.1c5dec5a811b9b508e0c.jpeg",
-    "static/media/TheMerrow.jpeg": "/dj-lotus/static/media/TheMerrow.d4ddc27a17cbc8feecaa.jpeg",
-    "static/media/HoneyDip.jpeg": "/dj-lotus/static/media/HoneyDip.e4dcfa651d4cd68e1446.jpeg",
-    "static/media/mixing1.jpg": "/dj-lotus/static/media/mixing1.8e4c4fe0724273112a44.jpg",
-    "static/media/djing-portrait2.jpg": "/dj-lotus/static/media/djing-portrait2.5f7068ab1bc51bd2e096.jpg",
-    "static/media/portrait1.jpg": "/dj-lotus/static/media/portrait1.20cc1e58d3b64a04b515.jpg",
-    "index.html": "/dj-lotus/index.html",
-    "main.5aced05e.css.map": "/dj-lotus/static/css/main.5aced05e.css.map",
-    "main.99c755a6.js.map": "/dj-lotus/static/js/main.99c755a6.js.map",
-    "232.69fc2605.chunk.js.map": "/dj-lotus/static/js/232.69fc2605.chunk.js.map",
-    "787.12cbf098.chunk.js.map": "/dj-lotus/static/js/787.12cbf098.chunk.js.map"
+    "main.css": "/static/css/main.0a9a5a9c.css",
+    "main.js": "/static/js/main.94a24b53.js",
+    "static/js/232.69fc2605.chunk.js": "/static/js/232.69fc2605.chunk.js",
+    "static/js/787.12cbf098.chunk.js": "/static/js/787.12cbf098.chunk.js",
+    "static/media/Macbook-pro.jpg": "/static/media/Macbook-pro.74e70112bd3cd846ce16.jpg",
+    "static/media/dj-portrait3.jpg": "/static/media/dj-portrait3.17fb51a5d50ffa5781da.jpg",
+    "static/media/HoneyDip2.jpeg": "/static/media/HoneyDip2.1c5dec5a811b9b508e0c.jpeg",
+    "static/media/TheMerrow.jpeg": "/static/media/TheMerrow.d4ddc27a17cbc8feecaa.jpeg",
+    "static/media/HoneyDip.jpeg": "/static/media/HoneyDip.e4dcfa651d4cd68e1446.jpeg",
+    "static/media/july7.jpeg": "/static/media/july7.dc70b5ee583825bc54e0.jpeg",
+    "static/media/mixing1.jpg": "/static/media/mixing1.8e4c4fe0724273112a44.jpg",
+    "static/media/july8.jpeg": "/static/media/july8.4a10b752a1e3ff7d8500.jpeg",
+    "static/media/djing-portrait2.jpg": "/static/media/djing-portrait2.5f7068ab1bc51bd2e096.jpg",
+    "static/media/portrait1.jpg": "/static/media/portrait1.20cc1e58d3b64a04b515.jpg",
+    "static/media/july23.jpeg": "/static/media/july23.0512066c173a96ee21a1.jpeg",
+    "static/media/eden-show.png": "/static/media/eden-show.859d0280cb68c8bad981.png",
+    "static/media/lotus-logo.jpg": "/static/media/lotus-logo.03657b2ae88cae4dc2dc.jpg",
+    "index.html": "/index.html",
+    "main.0a9a5a9c.css.map": "/static/css/main.0a9a5a9c.css.map",
+    "main.94a24b53.js.map": "/static/js/main.94a24b53.js.map",
+    "232.69fc2605.chunk.js.map": "/static/js/232.69fc2605.chunk.js.map",
+    "787.12cbf098.chunk.js.map": "/static/js/787.12cbf098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aced05e.css",
-    "static/js/main.99c755a6.js"
+    "static/css/main.0a9a5a9c.css",
+    "static/js/main.94a24b53.js"
   ]
 }
