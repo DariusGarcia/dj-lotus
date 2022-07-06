@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import StaticModel from "./components/AnimatedModels/StaticModel";
 import DjLotus from "./components/AnimatedModels/DjLotus";
 import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 import PicStack from "./components/PictureStack/PicStack";
 import Schedule from "./components/Schedule/Schedule";
 import Newsletter from "./components/Newsletter/Newsletter";
