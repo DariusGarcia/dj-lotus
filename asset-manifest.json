@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a9a5a9c.css",
-    "main.js": "/static/js/main.94a24b53.js",
+    "main.css": "/static/css/main.a83c7e4c.css",
+    "main.js": "/static/js/main.6a934b52.js",
     "static/js/232.69fc2605.chunk.js": "/static/js/232.69fc2605.chunk.js",
     "static/js/787.12cbf098.chunk.js": "/static/js/787.12cbf098.chunk.js",
     "static/media/Macbook-pro.jpg": "/static/media/Macbook-pro.74e70112bd3cd846ce16.jpg",
@@ -18,13 +18,13 @@
     "static/media/eden-show.png": "/static/media/eden-show.859d0280cb68c8bad981.png",
     "static/media/lotus-logo.jpg": "/static/media/lotus-logo.03657b2ae88cae4dc2dc.jpg",
     "index.html": "/index.html",
-    "main.0a9a5a9c.css.map": "/static/css/main.0a9a5a9c.css.map",
-    "main.94a24b53.js.map": "/static/js/main.94a24b53.js.map",
+    "main.a83c7e4c.css.map": "/static/css/main.a83c7e4c.css.map",
+    "main.6a934b52.js.map": "/static/js/main.6a934b52.js.map",
     "232.69fc2605.chunk.js.map": "/static/js/232.69fc2605.chunk.js.map",
     "787.12cbf098.chunk.js.map": "/static/js/787.12cbf098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a9a5a9c.css",
-    "static/js/main.94a24b53.js"
+    "static/css/main.a83c7e4c.css",
+    "static/js/main.6a934b52.js"
   ]
 }
