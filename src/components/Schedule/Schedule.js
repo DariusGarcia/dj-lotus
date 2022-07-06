@@ -1,4 +1,6 @@
 import honeyDip from "../../images/flyer/HoneyDip.jpeg";
+import july7 from "../../images/flyer/july7.jpeg";
+import july8 from "../../images/flyer/july8.jpeg";
 import honeyDip2 from "../../images/flyer/HoneyDip2.jpeg";
 import merrow from "../../images/flyer/TheMerrow.jpeg";
 import "./Schedule.scss";
@@ -20,105 +22,144 @@ function Schedule() {
         <section className="schedule-list">
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Thursday, July 7, 2022</h3>
+              <p>10:00P.M. - 2:00A.M.</p>
+              <a
+                href="https://richssandiego.com/bouncehouse-2/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" className="btn-buy-tickets">
+                  Buy Tickets
+                </button>
+              </a>
+            </div>
+            <div className="schedule-events">
+              <img src={july7} alt="july7" className="flyers" />
+              <h2 className="schedule-event-location">
+                Hosted by the Bounce House in San Diego
+              </h2>
+              <p>9:00P.M - CLOSE</p>
+            </div>
+          </article>
+
+          <article className="shows-list-article">
+            <div className="schedule-event-dates">
+              <h3>Friday, July 8, 2022</h3>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={merrow} alt="merrow" className="flyers" />
+              <img src={july8} alt="july8" className="flyers" />
               <h2 className="schedule-event-location">
-                The Merrow in San Diego, California
+                Presented by Number One Fifth Avenue in San Diego
               </h2>
             </div>
           </article>
 
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Sunday, July 10, 2022</h3>
+              <p>11:00A.M. - 2:00P.M.</p>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={honeyDip} alt="honeyDip" className="flyers" />
+              {/* <img src={honeyDip2} alt="honeyDip2" className="flyers" /> */}
+              <h2 className="schedule-event-location">Hosted at Martinis</h2>
+            </div>
+          </article>
+
+          <article className="shows-list-article">
+            <div className="schedule-event-dates">
+              <h3>Wednesday, July 13, 2022</h3>
+              <p>8:00P.M. - 10:00P.M.</p>
+              <button type="button" className="btn-buy-tickets">
+                Buy Tickets
+              </button>
+            </div>
+            <div className="schedule-events">
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
               <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
+                Hosted by Gossip Grill in San Diego
               </h2>
             </div>
           </article>
 
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Friday, July 15, 2022</h3>
+              <p>4:00P.M. - 8:00P.M.</p>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={honeyDip2} alt="honeyDip2" className="flyers" />
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
               <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
+                Hosted by Martinis in San Diego
               </h2>
             </div>
           </article>
 
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Friday, July 15, 2022</h3>
+              <p>9:00P.M. - 2:00A.M.</p>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={honeyDip} alt="honeyDip" className="flyers" />
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
               <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
+                Hosted by the Andaz Hotel Queer Girl
               </h2>
             </div>
           </article>
 
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Saturday, July 16, 2022</h3>
+              <p>4:00P.M. - 6:00P.M.</p>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={honeyDip} alt="honeyDip" className="flyers" />
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
+              <h2 className="schedule-event-location">Hosted in Balboa Park</h2>
+            </div>
+          </article>
+          <article className="shows-list-article">
+            <div className="schedule-event-dates">
+              <h3>Saturday, July 16, 2022</h3>
+              <p>6:00P.M. - 10:00P.M.</p>
+              <button type="button" className="btn-buy-tickets">
+                Buy Tickets
+              </button>
+            </div>
+            <div className="schedule-events">
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
               <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
+                Hosted by Eden Entertainment Humphreys
               </h2>
             </div>
           </article>
-
           <article className="shows-list-article">
             <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
+              <h3>Saturday, July 16, 2022</h3>
+              <p>12:00A.M. - 4:00A.M.</p>
               <button type="button" className="btn-buy-tickets">
                 Buy Tickets
               </button>
             </div>
             <div className="schedule-events">
-              <img src={honeyDip} alt="honeyDip" className="flyers" />
+              {/* <img src={honeyDip} alt="honeyDip" className="flyers" /> */}
               <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
-              </h2>
-            </div>
-          </article>
-
-          <article className="shows-list-article">
-            <div className="schedule-event-dates">
-              <h3>Saturday, February 26, 2022</h3>
-              <button type="button" className="btn-buy-tickets">
-                Buy Tickets
-              </button>
-            </div>
-            <div className="schedule-events">
-              <img src={honeyDip} alt="honeyDip" className="flyers" />
-              <h2 className="schedule-event-location">
-                HoneyDip Riddim in La Jolla, California
+                Hosted by the Merrow in San Diego
               </h2>
             </div>
           </article>
