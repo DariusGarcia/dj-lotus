@@ -1,1 +1,1 @@
-[Link to website](https://dariusgarcia.github.io/dj-lotus/)
+[Link to website](https://iamlotusbanks.com/)
