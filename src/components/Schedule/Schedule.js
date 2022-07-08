@@ -1,8 +1,5 @@
-import honeyDip from '../../images/flyer/HoneyDip.jpeg';
 import july7 from '../../images/flyer/july7.jpeg';
 import july8 from '../../images/flyer/july8.jpeg';
-import honeyDip2 from '../../images/flyer/HoneyDip2.jpeg';
-import merrow from '../../images/flyer/TheMerrow.jpeg';
 import july23 from '../../images/flyer/july23.jpeg';
 import eden from '../../images/flyer/eden-show.png';
 import './Schedule.scss';

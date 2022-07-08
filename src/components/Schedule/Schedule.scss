@@ -3,8 +3,8 @@
     align-items: center;
     place-content: center;
 }
+
 .schedule-container {
-    padding: 1.5rem;
     background-color: #1b1b1b;
     color: white;
     margin-bottom: 0rem;
@@ -12,7 +12,6 @@
 
 .schedule-header {
     display: flex;
-
     align-items: center;
 
     // grid-template-columns: 1fr 1fr 1fr;
@@ -32,8 +31,8 @@
 
     #schedule {
         position: relative;
-        // margin-left: 3rem;
         top: 0;
+        margin-left: 2rem;
         margin-top: 5rem;
     }
 
@@ -43,28 +42,26 @@
 }
 
 .schedule-list {
-    background-color: #242424;
     border-radius: 15px;
 
     .shows-list-article {
         display: flex;
         justify-content: space-between;
-        margin: 0 1rem 0 1rem;
-        padding: 1rem 0 1rem 0;
+        margin: 1.5rem;
+        border-radius: 15px;
+        padding: 0.7rem;
+        height: 11rem;
+        background-color: #242424;
         cursor: default;
 
         .schedule-event-location {
-            color: rgb(212, 55, 212);
+            color: rgb(173, 173, 173);
         }
     }
 }
 
 .shows-list-article:hover {
-    // border-top: 2px solid grey;
-    // border-bottom: 2px solid grey;
-    box-shadow: 10px 10px 10px rgb(27, 27, 27);
-
-    border-radius: 5px;
+    border: 1px solid rgb(212, 55, 212);
 }
 
 .schedule-event-dates {
@@ -72,7 +69,8 @@
     .btn-buy-tickets {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
             "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-        background-color: grey;
+        // background-color: grey;
+        background-color: #24a0ed;
         color: white;
         border: none;
         border-radius: 5px;
@@ -103,11 +101,8 @@
 
 .flyers:hover {
     border: 1px solid white;
-
-    -webkit-transform: scale(8); /* or some other value */
-    transform: scale(8);
-    // transform:scale(8);
-    backdrop-filter: blur(5px);
+    -webkit-transform: scale(5);
+    transform: scale(5);
 }
 
 /* ------------------------------
@@ -115,12 +110,15 @@ Media queries for smaller devices
 -------------------------------*/
 
 @media (min-width: 1201px) {
+    .schedule-container {
+        padding: 1.5rem;
+    }
     #schedule {
         font-size: 3rem;
     }
 
     .flyers {
-        height: 5rem;
+        height: 10rem;
     }
     .btn-book-shows {
         margin-left: 3rem;
@@ -142,7 +140,7 @@ Media queries for smaller devices
         font-size: 1.5rem;
     }
     .flyers {
-        height: 5rem;
+        height: 10rem;
     }
     .btn-book-shows {
         margin-left: 2rem;
@@ -171,7 +169,7 @@ Media queries for smaller devices
         width: 6rem;
     }
     .flyers {
-        height: 5rem;
+        height: 10rem;
     }
     .flyers:hover {
         border: 1px solid white;
@@ -202,7 +200,7 @@ Media queries for smaller devices
         width: 5rem;
     }
     .flyers {
-        height: 5rem;
+        height: 10rem;
     }
     .flyers:hover {
         border: 1px solid white;
@@ -224,15 +222,16 @@ Media queries for smaller devices
     }
     .btn-buy-tickets {
         height: 2rem;
+        background-color: #24a0ed;
         width: 5rem;
     }
     .flyers {
-        height: 4rem;
+        height: 6rem;
     }
     .flyers:hover {
         border: 1px solid white;
-        -webkit-transform: scale(5); /* or some other value */
-        transform: scale(5);
+        -webkit-transform: scale(4); /* or some other value */
+        transform: scale(4);
         backdrop-filter: blur(5px);
     }
 }
@@ -256,6 +255,7 @@ Media queries for smaller devices
         display: flex;
         align-items: center;
         place-content: center;
+        background-color: #24a0ed;
     }
     .flyers {
         height: 3rem;
