@@ -10,9 +10,13 @@ function DJLotus() {
         className="DJ-lotus-model"
         scene="https://prod.spline.design/RFk3p7GdffYPXAnr/scene.splinecode"
       /> */}
-      <Spline
+      {/* <Spline
         className="DJ-lotus-model"
         scene="https://prod.spline.design/iVEDS9klkYZjZD1L/scene.splinecode"
+      /> */}
+      <Spline
+        className="DJ-lotus-model"
+        scene="https://prod.spline.design/roGEInHYJ8KPkg4a/scene.splinecode"
       />
     </div>
   );

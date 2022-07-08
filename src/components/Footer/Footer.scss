@@ -10,18 +10,18 @@
     padding: 2rem;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     // grid-template-columns: 1fr 1fr 1fr;
-    height: 10rem;
-    background-color: #242424 ;
+    height: 12rem;
+    background-color: #242424;
 
-    article{
+    article {
         color: white;
     }
 
     .social-media-links {
         display: flex;
-        margin-top: .8rem;
+        margin-top: 0.8rem;
     }
 
     a {
@@ -40,8 +40,6 @@
 #email-phone-icons {
     display: flex;
     // padding: 1px;
-    
-
 }
 
 #span-socials-icon {
@@ -53,52 +51,62 @@
     color: white;
     margin-left: 1rem;
 }
+#footer-contact-me {
+    font-size: 1.2rem;
+}
 
 /* ------------------------------
 Media queries for smaller devices
 -------------------------------*/
 
 @media (max-width: 1200px) {
- 
-    
-  }
-  @media (max-width: 1024px) {
-   
-  }
-  @media (max-width: 800px) {
-   
-  }
-  @media (max-width: 600px) {
-   #dj-lotus-title {
-    font-size: 1rem;
-   }
-   #email-phone-icons {
-    font-size: .8rem;
-   }
-
-   a {
-    font-size: .8rem;
-   }
-
-   .footer-section {
-    margin-right: 2rem;
-   }
 }
-    
-  
-  @media (max-width: 375px) {
+@media (max-width: 1024px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 600px) {
     #dj-lotus-title {
         font-size: 1rem;
-       }
-       #email-phone-icons {
-        font-size: .8rem;
-       }
-    
-       a {
-        font-size: .8rem;
-       }
-    
-       .footer-section {
+    }
+    #email-phone-icons {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .footer-section {
+        margin-right: 2rem;
+    }
+
+    .footer-section h1,
+    p {
+        font-size: 0.8rem;
+    }
+    .footer-contact-me {
+        font-size: 1rem;
+    }
+    .article-contact-us {
+        // display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 375px) {
+    #dj-lotus-title {
+        font-size: 1rem;
+    }
+    #email-phone-icons {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .footer-section {
         margin-right: 1rem;
-       }
-  }
+    }
+}
